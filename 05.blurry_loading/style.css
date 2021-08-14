@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,18 +14,16 @@ body {
   margin: 0;
 }
 
-.bg {
+.background-image {
   background: url('https://source.unsplash.com/daily') no-repeat center center/cover;
-  position: absolute;
-  top: -30px;
-  left: -30px;
-  width: calc(100vw + 60px);
-  height: calc(100vh + 60px);
+  height: 100vh;
+  width: 100vw;
   z-index: -1;
-  filter: blur(0px);
+  position: absolute;
+  filter: blur(30px);
 }
 
 .loading-text {
-  font-size: 50px;
+  font-size: 36px;
   color: #fff;
 }
